@@ -1,0 +1,11 @@
+services:
+  ielts:
+    build: .
+    ports:
+      - "127.0.0.1:4173:4173"
+    environment:
+      APP_ORIGIN: http://localhost:4173
+    volumes:
+      - .:/documents
+    init: true
+    restart: unless-stopped

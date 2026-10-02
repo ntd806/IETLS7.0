@@ -1,0 +1,24 @@
+{
+  "name": "ietls7.0",
+  "version": "1.0.0",
+  "description": "Local IELTS Markdown reader and editor",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntd806/IETLS7.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ntd806/IETLS7.0/issues"
+  },
+  "homepage": "https://github.com/ntd806/IETLS7.0#readme",
+  "dependencies": {
+    "markdown-it": "^15.0.2"
+  }
+}
